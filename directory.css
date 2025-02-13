@@ -1,7 +1,7 @@
 /* General Styles */
 body {
     font-family: 'Times New Roman', Times, serif;
-    background: url('/Images/flowers.jpg') no-repeat center center fixed;
+    background: url('flowers.jpg') no-repeat center center fixed;
     background-size: cover;
     text-align: center;
     padding: 50px;
