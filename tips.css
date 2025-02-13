@@ -1,0 +1,131 @@
+/* General Styles */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FCD5D8;
+    color: #6A1A37;
+    text-align: center;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #6A1A37;
+    color: #FCD5D8;
+    padding: 20px;
+    border-bottom: 3px solid #EAB4C4;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+/* Tips Section */
+.tips-container {
+    background-color: #FCD5D8;
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 900px;
+    margin: 50px auto;
+    border: 3px solid #6A1A37;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Grid Layout for Tips */
+.tips-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 20px;
+    justify-content: center;
+    align-items: start;
+}
+
+/* Tip Item */
+.tip-item {
+    background-color: #EAB4C4;
+    padding: 20px;
+    border-radius: 10px;
+    border: 3px solid #6A1A37;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Images */
+.tip-image {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid #6A1A37;
+    margin-bottom: 10px;
+}
+
+/* Tea Types Section */
+.tea-types {
+    background-color: #EAB4C4;
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 900px;
+    margin: 50px auto;
+    border: 3px solid #6A1A37;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Grid Layout for Tea Types */
+.tea-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Tea Item Box */
+.tea-item {
+    background-color: #FCD5D8;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+    border: 3px solid #6A1A37;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.tea-item img {
+    width: 100%;
+    max-width: 180px;
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid #6A1A37;
+}
+
+.tea-item p {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+/* Back Home Button */
+.back-home {
+    background-color: #FCD5D8;
+    border: 3px solid #6A1A37;
+    padding: 12px 24px;
+    font-size: 1rem;
+    color: #6A1A37;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.back-home:hover {
+    background-color: #FFD9E3;
+}
+
+/* Responsive Design: Stack in 1 Column on Small Screens */
+@media (max-width: 768px) {
+    .tips-grid {
+        grid-template-columns: 1fr; /* Switch to single column */
+    }
+}

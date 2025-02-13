@@ -1,0 +1,77 @@
+/* General Styles */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FCD5D8;
+    color: #6A1A37;
+    text-align: center;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #6A1A37;
+    color: #FCD5D8;
+    padding: 20px;
+    border-bottom: 3px solid #EAB4C4;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+/* Help Section */
+.help-container {
+    background-color: #FCD5D8;
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 50px auto;
+    border: 3px solid #6A1A37;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.help-container h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.help-container p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Email Styling */
+.email a {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #6A1A37;
+    text-decoration: none;
+    background-color: #FFD9E3;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.email a:hover {
+    background-color: #EAB4C4;
+}
+
+/* Back Home Button */
+.back-home {
+    background-color: #FCD5D8;
+    border: 3px solid #6A1A37;
+    padding: 12px 24px;
+    font-size: 1rem;
+    color: #6A1A37;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.back-home:hover {
+    background-color: #FFD9E3;
+}
