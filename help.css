@@ -43,6 +43,43 @@ h1 {
     margin-bottom: 20px;
 }
 
+/* Sources Cited Section */
+.sources-cited {
+    background-color: #FFECEF;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 50px auto;
+    border: 3px solid #6A1A37;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.sources-cited h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #6A1A37;
+}
+
+.sources-cited ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sources-cited li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.sources-cited a {
+    color: #6A1A37;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sources-cited a:hover {
+    text-decoration: underline;
+}
+
 /* Email Styling */
 .email a {
     font-size: 1.2rem;
