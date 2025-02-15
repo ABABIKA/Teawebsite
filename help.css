@@ -132,7 +132,7 @@ h1 {
     background-color: #EAB4C4;
 }
 
-/* Back Home Button */
+/* Back Home Buttons */
 .back-home {
     background-color: #FCD5D8;
     border: 3px solid #6A1A37;
@@ -142,7 +142,7 @@ h1 {
     font-weight: bold;
     cursor: pointer;
     border-radius: 8px;
-    margin-top: 20px;
+    margin: 10px;
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
 }
 
